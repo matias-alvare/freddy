@@ -1,0 +1,133 @@
+*{
+margin: 0px;
+}
+
+
+body{
+background: darkblue;
+color: white;
+font-family: 'Nunito',sans-serif;
+}
+.header{
+background: rgba(30, 1, 63);                                                                     
+color: white;
+display: flex;
+justify-content: space-between;
+height:90px;
+}
+
+.header li{
+height:inherit;
+}
+
+.header a{
+color: white;
+text-decoration: none;
+height:inherit;
+display: flex;
+align-items: center;
+padding:0px 10px;
+}
+
+.logo img {
+width: 160px;
+
+}
+
+.menu{
+height:inherit;
+}
+
+.principal{
+background: #ffffff;
+
+
+
+
+text-align: center;
+padding: 100px  ;
+}
+.principal img{
+width: 300px;
+}
+h1{
+font-family: 'Nunito',sans-serif;
+color: black;
+font-size: 50px;
+}
+
+h1 strong{
+color: rgb(92, 45, 92);
+}
+
+.principal img {
+width: 300px;
+}
+
+.button{
+width: 300px;
+height: 60px;
+background-color:purple;
+color: white;
+border-radius: 24px;
+border: none;
+font-size: 20px;
+cursor: pointer;
+margin-top: 30px;
+}
+
+ul{
+   list-style: none;
+margin: 0px;
+padding: 0px;
+display: flex;
+height:inherit;
+}
+.somos{
+background-color: rgb(75, 1, 94);
+padding:50px;
+font-size: 20px;
+text-align: center;
+}
+
+.container1{
+ display: flex;
+ background: plum;
+ padding: 20px;
+ justify-content: space-around;
+}
+
+.container2{
+background-color: purple;
+}
+.somos h2{
+color: #ca86d6;
+margin-bottom: 10px;
+}
+
+.somos p{
+margin-bottom: 20px;
+}
+
+.padre{
+background: red;
+flex-direction: row;
+display: flex;
+flex-wrap: nowrap;
+text-align: center;
+}
+
+.hijo{
+background-color: rgb(166, 112, 190);
+width: 840px;
+height: 480px;
+border: 2px solid rgb(105, 72, 119);
+font-size: 30px;
+padding-top: 50px;
+}
+
+
+.tercera{
+background-color: yellowgreen;
+padding:25px 100px 200px 50px;
+}
